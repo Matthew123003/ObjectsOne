@@ -12,7 +12,7 @@ class Person {
     public Person(String name, int age, int height) {
         this.name = name;
         this.age = age;
-        this.height = height;
+        this.height = 0;
     }
 
     public static void main(String[] args) {
