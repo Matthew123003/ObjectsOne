@@ -19,5 +19,11 @@ public class Main {
 
         Car car1 = new Car("Nissan", "D21", 1994, 205000);
         System.out.println(car1.getMake());
+
+        PersonArray[] people = new PersonArray[2];
+        PersonArray personArray1 = new PersonArray("Matt", 39);
+        PersonArray personArray2 = new PersonArray("Anthony", 30);
+        System.out.println(people.length);
+        System.out.println();
     }
 }
