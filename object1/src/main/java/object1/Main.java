@@ -23,7 +23,26 @@ public class Main {
         PersonArray[] people = new PersonArray[2];
         PersonArray personArray1 = new PersonArray("Matt", 39);
         PersonArray personArray2 = new PersonArray("Anthony", 30);
+        people[0] = personArray1;
+        people[1] = personArray2;
         System.out.println(people.length);
-        System.out.println();
+        System.out.println(people[0]);
+
+
+        Dog[] dogs = new Dog[5];
+        Dog doggo1 = new Dog("Tucker", 2,"Hound");
+        Dog doggo2 = new Dog("Lilah", 2, "Hound");
+        doggo1 = dogs[0];
+        doggo2 = dogs[1];
+
+        int[] num = {1, 2, 3, 4};
+        for (int x : num){
+            System.out.println(x);
+        }
+
+
+
+
+
     }
 }
